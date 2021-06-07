@@ -1,0 +1,22 @@
+.led {
+    height: 60px;
+    width: 60px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
