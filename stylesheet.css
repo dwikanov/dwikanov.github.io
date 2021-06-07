@@ -1,0 +1,392 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list:hover {
+    border-radius: 10px;
+    text-shadow:0 0 white;
+}
+
+.heading {
+    width:100%;
+    height: 80px;
+    background-color: rgba(17, 19, 41, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    margin-left: 10px;
+}
+
+.logo {
+    background-image:url(https://github.com/dwikanov/dwikanov.github.io/blob/main/fltlogo2.png?raw=true);
+    background-size: 60px;
+    margin:10px 10px;
+    padding:30px 30px;
+    float:left;
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    filter: invert(50%);
+}
+
+.header-list {
+    padding:30px 0px;
+}
+
+.list {
+    margin:0 30px;
+    color:white;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper{
+    height: 740px;
+    background-color: rgb(12, 12, 12);
+}
+
+.top-wrapper p {
+    padding: 100px 100px;
+    color:white;
+    font-size:20;
+}
+
+.video {
+    float: left;
+}
+
+.videos {
+    margin: 40px 0;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.video video {
+    padding: 0 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+    padding-top:5px;
+}
+
+.intro p {
+    line-height: 10px;
+    padding:0 0;
+}
+
+.photos {
+    margin:20px 20px;
+    width:100%;
+}
+
+.photo {
+    float:left;
+    text-align: center;
+}
+
+.sub-photo {
+    position:relative;
+    width:15%;
+    padding:20px 20px;
+}
+
+.slr {
+    width:25%;
+}
+
+.bottom-wrapper {
+    height: 900px;
+    background-color: rgb(12, 12, 12);
+}
+
+.ladder {
+    width: 30%;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.ladder-head {
+    height: 30px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 190px;
+    border-radius: 15px 15px 0 0;
+    background-color:white;
+}
+
+.plc-head {
+    padding-top: 5px;
+}
+
+.ladder-main {
+    height: 310px;
+    border-radius:15px 15px;
+    background-color: white;
+}
+
+.ladder-title {
+    height:30px;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(148, 143, 134);
+    border-bottom: 1px solid black;
+}
+
+.ladder-title p {
+    margin-top: 0;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.ladder-top {
+    padding: 30px 20px;
+    text-align: center; 
+    margin: 0 auto;
+}
+.ladder-top h1 {
+    width:75px;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    float:left;
+}
+
+.ladder-top span {
+    background-color: white;
+}
+
+.vertical {
+    background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%);
+}
+
+.branch {
+    margin-top: -26px;
+    margin-left: 100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 60px;
+    height:60px;
+}
+
+.ladder-bottom h1 {
+    margin-top: -2px;
+    margin-left: 100px;
+    width:64px;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    text-align: center;
+}
+
+.ladder-bottom span {
+    background-color: white;
+}
+
+.ladder-bottom {
+    margin-bottom: 70px;
+}
+
+.compile {
+    border-top: 5px solid grey;
+    padding:10px 20px;
+}
+
+.compile p {
+    text-align: center;
+    width:30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor:default;
+}
+
+.toggle {
+    float:left;
+}
+
+.lamp {
+    margin: 15px 50px;
+    height: 60px;
+    width: 60px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    float:right;
+}
+
+
+
+.arduino {
+    width: 30%;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.arduino-head {
+    height: 30px;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    border-radius: 15px 15px 0 0;
+    background-color: #006666;
+    color:white;
+}
+
+.arduino-heading {
+    padding-top: 5px;
+}
+
+.arduino-main {
+    height: 470px;
+    border-radius:15px 15px;
+    background-color: white;
+}
+
+.arduino-title {
+    height:30px;
+    border-radius: 15px 15px 0 0;
+    background-color: #009999;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+.arduino-title p {
+    margin-top: 0;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.arduino-code {
+    font-size: 16px;
+    font-family: monospace;
+    margin:0 15px;
+}
+
+.blue {
+    color: #0099cc;
+}
+
+.green {
+    color: #339933;
+}
+
+.orange {
+    color:orangered;
+}
+
+.space {
+    padding-top: 10px;
+}
+
+.arduino-main .compile {
+    text-align: center;
+}
+
+.webing {
+    width: 30%;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.webing-head {
+    height: 30px;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 50px;
+    border-radius: 15px 15px 0 0;
+    background-color: #c6c9cf;
+}
+
+.webing-heading {
+    padding-top: 5px;
+}
+
+.webing-main {
+    height: 720px;
+    border-radius:15px 15px;
+    background-color: #343d46;
+}
+
+.webing-title {
+    height:30px;
+    border-radius: 15px 15px 0 0;
+    background-color: #787980;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+.webing-title p {
+    margin-top: 0;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.webing-code {
+    font-size: 16px;
+    font-family: monospace;
+    margin:0 15px;
+}
+
+.webing-code p {
+    color:white;
+}
+
+
+.red {
+    color:#ff5050;
+}
+
+.violet {
+    color: violet;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgb(51, 26, 26);
+    color:rgb(255, 255, 255);
+    height: 130px;
+}
+
+.footer-left {
+    padding:10px 20px;
+    font-size: 40px;
+    position: relative;
+}
+
+.footer-logo {
+    width: 15%;
+    float:left;
+    filter: invert(1);
+}
+
+.footer-list {
+    float:right;
+    text-align: right;
+    margin:auto;
+    padding:10px 20px;
+}
+
